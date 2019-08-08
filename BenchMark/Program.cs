@@ -27,34 +27,114 @@ namespace BenchMark
         }
         [Benchmark]
         public void IF()
-        { int x = 3;
-            if(x==1) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } 
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 3) { } else if (x == 2) { } else if (x == 2) { } 
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 99) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 99) { } else { }
+        { int x = 100;
+            if (x == 1) { }
+            else if (2 == x) { }
+            else if (3 == x) { }
+            else if (4 == x) { }
+            else if (5 == x) { }
+            else if (6 == x) { }
+            else if (7 == x) { }
+            else if (8 == x) { }
+            else if (9 == x) { }
+            else if (10 == x) { }
+            else if (11 == x) { }
+            else if (12 == x) { }
+            else if (13 == x) { }
+            else if (14 == x) { }
+            else if (15 == x) { }
+            else if (16 == x) { }
+            else if (17 == x) { }
+            else if (18 == x) { }
+            else if (19 == x) { }
+            else if (20 == x) { }
+            else if (21 == x) { }
+            else if (22 == x) { }
+            else if (23 == x) { }
+            else if (24 == x) { }
+            else if (25 == x) { }
+            else if (26 == x) { }
+            else if (27 == x) { }
+            else if (28 == x) { }
+            else if (29 == x) { }
+            else if (30 == x) { }
+            else if (31 == x) { }
+            else if (32 == x) { }
+            else if (33 == x) { }
+            else if (34 == x) { }
+            else if (35 == x) { }
+            else if (36 == x) { }
+            else if (37 == x) { }
+            else if (38 == x) { }
+            else if (39 == x) { }
+            else if (40 == x) { }
+            else if (41 == x) { }
+            else if (42 == x) { }
+            else if (43 == x) { }
+            else if (44 == x) { }
+            else if (45 == x) { }
+            else if (46 == x) { }
+            else if (47 == x) { }
+            else if (48 == x) { }
+            else if (49 == x) { }
+            else if (50 == x) { }
+            else if (51 == x) { }
+            else if (52 == x) { }
+            else if (53 == x) { }
+            else if (54 == x) { }
+            else if (55 == x) { }
+            else if (56 == x) { }
+            else if (57 == x) { }
+            else if (58 == x) { }
+            else if (59 == x) { }
+            else if (60 == x) { }
+            else if (61 == x) { }
+            else if (62 == x) { }
+            else if (63 == x) { }
+            else if (64 == x) { }
+            else if (65 == x) { }
+            else if (66 == x) { }
+            else if (67 == x) { }
+            else if (68 == x) { }
+            else if (69 == x) { }
+            else if (70 == x) { }
+            else if (71 == x) { }
+            else if (72 == x) { }
+            else if (73 == x) { }
+            else if (74 == x) { }
+            else if (75 == x) { }
+            else if (76 == x) { }
+            else if (77 == x) { }
+            else if (78 == x) { }
+            else if (79 == x) { }
+            else if (80 == x) { }
+            else if (81 == x) { }
+            else if (82 == x) { }
+            else if (83 == x) { }
+            else if (84 == x) { }
+            else if (85 == x) { }
+            else if (86 == x) { }
+            else if (87 == x) { }
+            else if (88 == x) { }
+            else if (89 == x) { }
+            else if (90 == x) { }
+            else if (91 == x) { }
+            else if (92 == x) { }
+            else if (93 == x) { }
+            else if (94 == x) { }
+            else if (95 == x) { }
+            else if (96 == x) { }
+            else if (97 == x) { }
+            else if (98 == x) { }
+            else if (99 == x) { }
+            else if (100 == x) { }
+            else { }
 
 
         }
         [Benchmark]
         public void SWITCH()
-        { int x = 80;
+        { int x = 100;
             switch(x)
             {
                 case 1: break;
