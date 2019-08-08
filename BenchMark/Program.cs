@@ -27,7 +27,7 @@ namespace BenchMark
         }
         [Benchmark]
         public void IF()
-        { int x = 100;
+        { int x = 3;
             if(x==1) { }
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } 
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
@@ -39,7 +39,7 @@ namespace BenchMark
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
-            else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } 
+            else if (x == 2) { } else if (x == 2) { } else if (x == 3) { } else if (x == 2) { } else if (x == 2) { } 
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
             else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { } else if (x == 2) { }
@@ -54,7 +54,7 @@ namespace BenchMark
         }
         [Benchmark]
         public void SWITCH()
-        { int x = 100;
+        { int x = 80;
             switch(x)
             {
                 case 1: break;
